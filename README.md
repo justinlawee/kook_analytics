@@ -153,13 +153,15 @@ kook_analysis/
 │   │   └── schema.yml
 │   ├── dbt_project.yml
 │   └── profiles.yml
-├── streamlit_app.py              # Interactive Streamlit dashboard
-├── environment.yml               # Streamlit dependencies
-├── operational_overview.sql      # Operational analysis queries
-├── strategic_analysis.sql        # Strategic growth & retention queries
-├── sales_spike_analysis.sql      # July 2025 spike deep dive
-├── AGENTS.md                     # AI assistant context (Cortex Code)
-├── README.md                     # Project documentation (this file)
+├── analysis/
+│   ├── operational_overview.sql
+│   ├── strategic_analysis.sql
+│   └── sales_spike_analysis.sql
+├── streamlit/
+│   ├── streamlit_app.py
+│   └── environment.yml
+├── AGENTS.md
+├── README.md
 └── .gitignore
 ```
 
