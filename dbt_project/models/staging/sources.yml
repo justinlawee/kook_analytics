@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: shopify
+    database: KOOK_DATA
+    schema: PUBLIC
+    tables:
+      - name: kook_orders
+        description: Raw Shopify order export with all columns as VARCHAR
