@@ -1,0 +1,12 @@
+default:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: ""
+      user: ""
+      role: ACCOUNTADMIN
+      database: KOOK_DATA
+      warehouse: COMPUTE_WH
+      schema: DBT_MODELS
+      threads: 4
