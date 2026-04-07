@@ -1,0 +1,37 @@
+version: 2
+
+models:
+  - name: stg_orders
+    description: Cleaned and typed Shopify orders with proper data types
+
+  - name: int_customers
+    description: Customer-level aggregation with segmentation and cohort
+
+  - name: int_order_items
+    description: Line-item grain with computed revenue
+
+  - name: fct_orders
+    description: Order-level fact table with net revenue, flags, and time dimensions
+    columns:
+      - name: order_id
+        tests:
+          - unique
+          - not_null
+
+  - name: fct_order_items
+    description: Line-item level fact table with product, channel, and geography
+
+  - name: dim_customers
+    description: Customer dimension with lifetime value and segmentation
+    columns:
+      - name: customer_email
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_products
+    description: Product dimension with sales metrics
+    columns:
+      - name: product_name
+        tests:
+          - not_null
