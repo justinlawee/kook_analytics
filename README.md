@@ -4,7 +4,7 @@ This project builds a complete e-commerce analytics pipeline for [KOOK](https://
 
 It ingests live Shopify order data into Snowflake, transforms it with dbt into clean, typed analytics models, and surfaces insights through an interactive Streamlit dashboard — demonstrating what a productized DTC analytics workflow looks like inside the modern data stack.
 
-## About KOOK
+## About KOOK 🌊
 
 KOOK makes reef-safe hair & skin care designed for 8 hours of hardcore ocean exposure. Every product is made in Los Angeles, tested in real ocean conditions, and every purchase plants a mangrove through their partnership with [Seatrees](https://www.seatrees.org/) in Baja's Laguna San Ignacio — a UNESCO World Heritage Site.
 
