@@ -29,7 +29,7 @@ Compare Web vs Amazon vs POS vs Wholesale performance, and map revenue by state 
 **Marketing ROI**
 Measure which influencer discount codes drive not just first orders, but repeat customers and long-term LTV.
 
-## Live Streamlit Dashboard
+## 📊 Live Streamlit Dashboard
 
 **Note:** The dashboard runs natively inside Snowflake and requires account access. A screenshot is included below for reference.
 
@@ -40,7 +40,7 @@ Measure which influencer discount codes drive not just first orders, but repeat 
 - **Channels & Geo** — Channel comparison, Amazon vs Web deep dive, revenue by state
 - **Promos & Growth** — Discount code performance, influencer LTV, MoM growth rate
 
-## Project Stack & Tools
+## 🧱 Project Stack & Tools
 
 | Component | Tool Used |
 |---|---|
@@ -65,7 +65,7 @@ Shopify Store → Snowflake Connector → Raw Table (all VARCHAR)
                                     Streamlit Dashboard + SQL Analysis Files
 ```
 
-## dbt Models
+## ⚙️ dbt Models
 
 | Layer | Model | Materialized | Description |
 |---|---|---|---|
@@ -87,7 +87,7 @@ All models include data tests (uniqueness, not_null) and are fully typed — no 
 | `strategic_analysis.sql` | 10-section growth & retention: cohort retention, time to 2nd purchase, product attach rates, Solar Moisturizer launch tracking, influencer LTV, Amazon vs Web, POS event follow-up, MoM growth, geographic expansion, price sensitivity |
 | `sales_spike_analysis.sql` | July 2025 revenue spike deep dive (channel, product, geography, discount breakdown) |
 
-## Key Findings
+## 💡 Key Findings
 
 - **Hero product:** PRE-SWIM HAIR MASK drives 40-60% of total revenue at $44/unit
 - **Biggest month:** July 2025 — driven by a launch event + wholesale push + coordinated influencer campaign
@@ -96,7 +96,7 @@ All models include data tests (uniqueness, not_null) and are fully typed — no 
 - **Seasonality:** Summer months stronger (ocean sports); Nov-Dec holiday gifting bump
 - **Customer mix:** Majority are one-time buyers — retention and repeat purchase are the key growth levers
 
-## How to Run This Project
+## 📌 How to Run This Project
 
 **Step 1:** Ensure Shopify Connector is syncing data to `KOOK_DATA.PUBLIC.KOOK_ORDERS`
 
@@ -119,11 +119,7 @@ FROM 'snow://workspace/USER$JBORENSTEINLAWEE.PUBLIC.DEFAULT$/versions/live/kook_
 FILES = ('streamlit_app.py', 'environment.yml');
 ```
 
-## Data Disclaimer
-
-This project uses **real, private Shopify order data** from KOOK. The underlying data is not included in this repository and the Streamlit dashboard requires Snowflake account access. Customer PII (names, emails, addresses, phone numbers) has been redacted in any publicly shared materials. Screenshots and aggregate metrics are included for demonstration purposes.
-
-## Data Source
+## 🗂️ Data Source
 
 This project uses live Shopify order data from [gotkook.com](https://gotkook.com), ingested via the Shopify Connector Native App on Snowflake Marketplace. The dataset includes:
 
@@ -133,7 +129,11 @@ This project uses live Shopify order data from [gotkook.com](https://gotkook.com
 - Discount codes and payment methods
 - Fulfillment and financial status
 
-## Project Structure
+## ⚠️ Data Disclaimer
+
+This project uses **real, private Shopify order data** from KOOK. The underlying data is not included in this repository and the Streamlit dashboard requires Snowflake account access.
+
+## 📁 Project Structure
 
 ```
 kook_analysis/
