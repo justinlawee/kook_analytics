@@ -1,3 +1,4 @@
+
 -- Kook Operational Overview
 -- Data source: KOOK_DATA.DBT_MODELS (dbt-transformed tables)
 
