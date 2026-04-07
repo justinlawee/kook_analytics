@@ -4,6 +4,12 @@ This project builds a complete e-commerce analytics pipeline for [KOOK](https://
 
 It ingests live Shopify order data into Snowflake, transforms it with dbt into clean, typed analytics models, and surfaces insights through an interactive Streamlit dashboard — demonstrating what a productized DTC analytics workflow looks like inside the modern data stack.
 
+## About KOOK
+
+KOOK makes reef-safe hair & skin care designed for 8 hours of hardcore ocean exposure. Every product is made in Los Angeles, tested in real ocean conditions, and every purchase plants a mangrove through their partnership with [Seatrees](https://www.seatrees.org/) in Baja's Laguna San Ignacio — a UNESCO World Heritage Site.
+
+**Product line:** Pre-Swim Hair Mask, Solar Moisturizer, Post-Swim Conditioner, Ocean Mineral Shampoo, Reef-Safe Sunscreen SPF 30, and more.
+
 ## What This Project Can Do
 
 The analytics pipeline enables a variety of high-impact use cases for a growing DTC brand:
@@ -126,12 +132,6 @@ This project uses live Shopify order data from [gotkook.com](https://gotkook.com
 - Customer billing and shipping addresses
 - Discount codes and payment methods
 - Fulfillment and financial status
-
-## About KOOK
-
-KOOK makes reef-safe hair & skin care designed for 8 hours of hardcore ocean exposure. Every product is made in Los Angeles, tested in real ocean conditions, and every purchase plants a mangrove through their partnership with [Seatrees](https://www.seatrees.org/) in Baja's Laguna San Ignacio — a UNESCO World Heritage Site.
-
-**Product line:** Pre-Swim Hair Mask, Solar Moisturizer, Post-Swim Conditioner, Ocean Mineral Shampoo, Reef-Safe Sunscreen SPF 30, and more.
 
 ## Project Structure
 
