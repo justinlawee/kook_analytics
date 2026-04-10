@@ -1,6 +1,6 @@
 #  🌊 KOOK Analytics (Snowflake + dbt + Streamlit)
 
-This project builds a complete e-commerce analytics pipeline for [KOOK](https://gotkook.com) — an ocean-first hair & skin care brand for surfers, divers, and water lovers. Founded by Christina Kuklinski and Justin Lawee in Los Angeles.
+This project builds a complete e-commerce analytics pipeline for [KOOK](https://gotkook.com) — an ocean-first cosmetics line for surfers, divers, and water lovers. Founded by Christina Kuklinski and Justin Lawee in Los Angeles.
 
 It ingests live Shopify order data into Snowflake, transforms it with dbt into clean, typed analytics models, and surfaces insights through an interactive Streamlit dashboard — demonstrating what a productized DTC analytics workflow looks like inside the modern data stack.
 
