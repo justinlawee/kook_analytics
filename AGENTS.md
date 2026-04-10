@@ -17,19 +17,10 @@ Shopify e-commerce analytics for KOOK — an ocean-first hair & skin care brand 
 ### Product Line
 | Product | Price | Notes |
 |---|---|---|
-| PRE-SWIM HAIR MASK | $44 | Hero product, 40-60% of revenue |
-| SOLAR MOISTURIZER (Tinted/Sheer) | $36 | Launched April 2025 |
+| PRE-SWIM HAIR MASK | $44 |
+| SOLAR MOISTURIZER | $36 | Launched April 2026 |
 | Ocean Protection Duo | $72 (sale from $80) | Bundle |
-| POST-SWIM CONDITIONER | — | |
-| CHLORINE DEFENSE LEAVE-IN | — | |
-| OCEAN MINERAL SHAMPOO | — | |
-| UV PROTECTION HAIR OIL | — | |
-| REEF-SAFE SUNSCREEN SPF 30 | — | |
-| SPF 50 LIP BALM | — | |
-| SALT SPRAY TEXTURIZER | — | |
-| AFTER-SUN ALOE GEL | — | |
-| SWIMMER'S EAR DROPS | — | |
-| Recycled Tote Bag | — | Merch |
+| Recycled Tote Bag | $25 | Merch |
 
 ### Target Audience
 - Surfers, scuba divers, swimmers, ocean lovers
