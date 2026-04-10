@@ -125,7 +125,7 @@ This project uses live Shopify order data from [gotkook.com](https://gotkook.com
 
 - Order transactions since April 2024
 - Line-item product details with pricing
-- Customer billing and shipping addresses
+- Customer profiles
 - Discount codes and payment methods
 - Fulfillment and financial status
 
