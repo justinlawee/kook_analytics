@@ -7,7 +7,7 @@ Shopify e-commerce analytics for KOOK — an ocean-first hair & skin care brand 
 
 ### About KOOK
 - **Website:** gotkook.com
-- **Founded by:** Christina Kuklinski (master scuba diver, 15,000+ hours underwater) with co-founder Justin Lawee (certified Dive Master)
+- **Founded by:** Christina Kuklinski (ex-L'Oreal) with co-founder Justin Lawee (certified Dive Master)
 - **HQ:** Los Angeles — all products designed, filled, printed, and packed within 50 miles of LA
 - **Tagline:** "Reef-safe essentials that care for both body and sea"
 - **Brand name meaning:** KOOK = badge of honor for those wildly passionate about chasing waves and adventure
