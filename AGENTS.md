@@ -85,7 +85,6 @@ Shopify e-commerce analytics for KOOK — an ocean-first hair & skin care brand 
 - **App:** `KOOK_DATA.DBT_MODELS.KOOK_DASHBOARD`
 - **Source:** `/kook_analysis/streamlit_app.py`
 - **Stage:** `@KOOK_DATA.DBT_MODELS.STREAMLIT_STAGE`
-- **To redeploy after edits:** Run `COPY FILES INTO @KOOK_DATA.DBT_MODELS.STREAMLIT_STAGE FROM 'snow://workspace/USER$JBORENSTEINLAWEE.PUBLIC.DEFAULT$/versions/live/kook_analysis' FILES = ('streamlit_app.py', 'environment.yml');`
 - 5 tabs: Overview, Products, Customers, Channels & Geo, Promos & Growth
 - Sidebar filters: date range, sales channel, state
 
