@@ -12,7 +12,6 @@ Shopify e-commerce analytics for KOOK — an ocean-first hair & skin care brand 
 - **Tagline:** "Reef-safe essentials that care for both body and sea"
 - **Brand name meaning:** KOOK = badge of honor for those wildly passionate about chasing waves and adventure
 - **Mission:** High-performance, reef-safe products designed for 8 hours of hardcore ocean exposure — protecting from sun, salt, surf, and sweat without harming reefs
-- **Founder background:** Christina Kuklinski and Justin Lawee
 
 ### Product Line
 | Product | Price | Notes |
