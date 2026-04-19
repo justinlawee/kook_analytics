@@ -6,7 +6,7 @@ It ingests live Shopify order data into Snowflake, transforms it with dbt into c
 
 ## 🪸 About KOOK
 
-KOOK makes reef-safe hair & skin care designed for 8 hours of hardcore ocean exposure. Every product is made in Los Angeles, tested in real ocean conditions, and every purchase plants a mangrove through their partnership with [Seatrees](https://www.seatrees.org/) in Baja's Laguna San Ignacio — a UNESCO World Heritage Site.
+KOOK makes reef-safe hair & skin care designed for 8 hours of hardcore ocean exposure. Every product is made in Los Angeles, tested in real ocean conditions, and every purchase plants a mangrove through our partnership with [Seatrees](https://www.seatrees.org/) in Baja's Laguna San Ignacio — a UNESCO World Heritage Site.
 
 **Product line:** Pre-Swim Hair Mask, Solar Moisturizer, Post-Swim Conditioner, Ocean Mineral Shampoo, Reef-Safe Sunscreen SPF 30, and more.
 
