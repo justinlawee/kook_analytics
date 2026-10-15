@@ -1,9 +1,9 @@
 
--- Kook Operational Overview
+-- Kook Shop Operational Overview
 -- Data source: KOOK_DATA.DBT_MODELS (dbt-transformed tables)
 
 -- ============================================================
--- 1. EXECUTIVE SUMMARY
+-- 1. EXECUTIVE SUMMARY 
 -- ============================================================
 
 SELECT
